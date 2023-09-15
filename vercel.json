@@ -1,0 +1,10 @@
+{
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "use": "@vercel/node",
+      "functions": "api/**/*.js",
+      "command": "npm install --legacy-peer-deps && npm run build"
+    }
+  }
