@@ -21,10 +21,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run custom-build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "custom-build": "npm install --legacy-peer-deps && react-scripts build"
+    "install": "react-scripts install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
